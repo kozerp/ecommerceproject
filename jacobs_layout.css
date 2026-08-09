@@ -205,9 +205,14 @@ main {
 }
 
 .check-out-link {
+    display: inline-block;
     text-decoration: none;
     color: var(--accent-dark);
     font-weight: 700;
+    font-size: 1.15rem;
+    padding: 0.6rem 0.8rem;
+    border-radius: 999px;
+    background: rgba(60,135,196,0.08);
 }
 
 .check-out-link:hover {
@@ -429,6 +434,7 @@ footer {
     margin: 0 auto 1rem;
     color: var(--accent-dark);
     line-height: 1.75;
+    text-align: center;
 }
 
 .footer-signup {
@@ -440,7 +446,8 @@ footer {
 }
 
 .footer-signup input {
-    min-width: 280px;
+    min-width: 140px;
+    width: 50%;
 }
 
 .footer-signup button {
